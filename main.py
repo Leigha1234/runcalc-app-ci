@@ -5,7 +5,7 @@ from pydantic import BaseModel
 from pathlib import Path
 import math
 
-app = FastAPI(title="RunCalc Pro V2")
+app = FastAPI(title="RunCalc Pro version 2.0")
 
 BASE_DIR = Path(__file__).resolve().parent
 templates = Jinja2Templates(directory=str(BASE_DIR / "templates"))
